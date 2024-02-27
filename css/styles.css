@@ -95,7 +95,7 @@ button {
 }
 
 .header-menu-list {
-    display: flex;
+    display: none;
     gap: 40px;
 }
 
