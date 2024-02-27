@@ -138,7 +138,8 @@ button {
 }
 
 .header-address {
-    font-style: normal;
+    margin-left: auto;
+        display: none;
 }
 
 .header-address-list {
@@ -168,6 +169,7 @@ button {
 .header-address-link:focus {
     color: #404BBF;
 }
+
 
 /*========*/
 /*=====hero=====*/
@@ -1237,7 +1239,7 @@ margin-bottom: 8px;
                 @media screen and (min-device-pixel-ratio:2),
                 (min-resolution:192dpi),
                 (min-resolution:2dppx) {
-                .section-first {
+                .hero {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
                 url(../images/people-office-2x.png);
